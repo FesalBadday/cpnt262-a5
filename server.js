@@ -13,13 +13,16 @@ app.use('/api/cars', api);
 
 // Handle 404 errors with middleware
 app.use((req, res) => {
-
-  // If path starts with `/api`, send JSON 404
-  if (req.url.startsWith('/api')) {
+  try {
+    // If path starts with `/api`, send JSON 404
+    if (req.url.startsWith('/api')) {
+      res.status(404).send({ error: '404 Not Found' })
+    } else {
+      // else send HTML 404
+      res.status(404).redirect('/404.html')
+    }
+  } catch {
     res.status(404).send({ error: '404 Not Found' })
-  } else {
-    // else send HTML 404
-    res.status(404).redirect('/404.html')
   }
 });
 
