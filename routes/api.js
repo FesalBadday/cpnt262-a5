@@ -15,8 +15,7 @@ router.get('/', (req, res) => {
     }
 
   } else {
-    res.status(404)
-    res.send({ error: '404 Not Found' })
+    res.status(404).send({ error: '404 Not Found' })
   }
 })
 
@@ -25,15 +24,13 @@ router.get('/:id', (req, res) => {
     const foundCar = gallery.find(car => Number(req.params.id) === car.id);
 
     if (!foundCar) { // send 404 if car is not found
-      res.status(404)
-      res.send({ error: '404 Not Found' })
+      res.status(404).send({ error: '404 Not Found' })
     } else { // else show the array
       res.send(foundCar)
     }
 
   } else {
-    res.status(404)
-    res.send({ error: '404 Not Found' })
+    res.status(404).send({ error: '404 Not Found' })
   }
 })
 
