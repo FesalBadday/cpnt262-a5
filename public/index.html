@@ -8,42 +8,45 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/fonts.css">
 
-  <script type="module" src="assets/js/script.js"></script>
-
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lemonada:wght@300&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
 
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-  <title>Carizzle - Gallery</title>
+  <title>Cars Gallery API</title>
 </head>
 
 <body>
   <!-- Header -->
   <header>
-    <h1>Gallery</h1>
+    <h1>Cars Gallery API</h1>
   </header>
 
   <!-- Main -->
   <main>
-    <section class="gallrey-section">
-      <h2 class="go-up">Cars Showroom</h2>
+    <section>
+      <h2>Get everything in the array</h2>
+      <pre><a href="https://cpnt262-a5-fesal.herokuapp.com/api/cars" target="_blank">https://cpnt262-a5-fesal.herokuapp.com/api/cars</a></pre>
+      <h2>Get a specific car in the array based on id</h2>
+      <pre><a href="https://cpnt262-a5-fesal.herokuapp.com/api/cars/6" target="_blank">https://cpnt262-a5-fesal.herokuapp.com/api/cars/6</a></pre>
+      <h2>Response</h2>
+      <pre>
+        {
+          "id": 4,
+          "title": "Classic Car",
+          "description": "Old Sky Blue Classic Sedan With A Nice Sky Filter",
+          "width": 480,
+          "height": 320,
+          "pathURL": "assets/images/gal-car-4.jpg",
+          "linkURL": "https://www.pexels.com/photo/blue-sedan-712618",
+          "credit": "neil kelly",
+          "creditURL": "https://www.pexels.com/@peely",
+          "dateCreated": "yyyy-mm-dd"
+        }</pre>
+      <h2>Get a random car from the array</h2>
+      <pre><a href="https://cpnt262-a5-fesal.herokuapp.com/api/cars?filter=random" target="_blank">https://cpnt262-a5-fesal.herokuapp.com/api/cars?filter=random</a></pre>
     </section>
   </main>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2021 Carizzle</p>
-    <ul>
-      <li><a href="https://www.facebook.com" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a></li>
-      <li><a href="https://www.youtube.com" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a></li>
-      <li><a href="https://twitter.com" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a></li>
-    </ul>
-  </footer>
 </body>
 
 </html>

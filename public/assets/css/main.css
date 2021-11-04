@@ -1,26 +1,38 @@
 body {
-  background-color: #656468;
-  text-align: center;
+  background-color: #424144;
+  color: #c9c7c7;
 }
 
-img {
+h2 {
+  margin: 80px 0 0;
+}
+
+pre {
+  background-color: #0000004b;
+  border-radius: .6rem;
+  padding: 1rem 1rem;
+  color: #f8f8ff;
+  overflow: auto;
   width: 40%;
-  min-width: 25rem;
 }
 
 section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+}
+
+img {
+  width: 35%;
 }
 
 a {
   text-decoration: none;
+  color: #deb887;
 }
 
 a:hover {
-  color: darkred;
+  color: #ffa500;
 }
 
 li {
