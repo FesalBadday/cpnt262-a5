@@ -33,4 +33,4 @@
 ## Attributions :
 - [Ashlyn Knox](https://github.com/lilyx13), [Jessica Watson](https://github.com/Enyorose), [Icah Vega](https://github.com/Icahpv) For helping me figure out how to use router. 
 - [Chakra Petch](https://fonts.google.com/specimen/Chakra+Petch#standard-styles) Font By [Cadson Demak](https://fonts.google.com/?query=Cadson+Demak) From [Google Fonts](https://fonts.google.com). [License](https://developers.google.com/fonts)
-- [pixeltrue-error](https://icons8.com/illustrations/illustration/pixeltrue-error) By [Pixeltrue](https://www.pixeltrue.com/packs) From [Icons8](https://www.icons8.com). [License](https://
+- [pixeltrue-error](https://icons8.com/illustrations/illustration/pixeltrue-error) By [Pixeltrue](https://www.pixeltrue.com/packs) From [Icons8](https://www.icons8.com). [License](https://www.icons8.com/license)
