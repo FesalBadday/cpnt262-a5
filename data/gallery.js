@@ -7,7 +7,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-1.jpg',
   linkURL: 'https://www.pexels.com/photo/parked-white-coupe-during-night-3354648',
   credit: 'Jan Kopřiva',
-  creditURL: 'https://www.pexels.com/@koprivakart'
+  creditURL: 'https://www.pexels.com/@koprivakart',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -19,7 +20,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-2.jpg',
   linkURL: 'https://www.pexels.com/photo/close-up-photography-of-white-chevrolet-camaro-1213294',
   credit: 'Jesse Zheng',
-  creditURL: 'https://www.pexels.com/@jessef11'
+  creditURL: 'https://www.pexels.com/@jessef11',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -31,7 +33,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-3.jpg',
   linkURL: 'https://www.pexels.com/photo/shiny-yellow-audi-car-in-showroom-1149831',
   credit: 'Sourav Mishra',
-  creditURL: 'https://www.pexels.com/@photosbymishra'
+  creditURL: 'https://www.pexels.com/@photosbymishra',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -43,7 +46,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-4.jpg',
   linkURL: 'https://www.pexels.com/photo/blue-sedan-712618',
   credit: 'neil kelly',
-  creditURL: 'https://www.pexels.com/@peely'
+  creditURL: 'https://www.pexels.com/@peely',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -55,7 +59,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-5.jpg',
   linkURL: 'https://www.pexels.com/photo/photo-of-audi-parked-near-trees-1402787',
   credit: 'Vlad Alexandru Popa',
-  creditURL: 'https://www.pexels.com/@vladalex94'
+  creditURL: 'https://www.pexels.com/@vladalex94',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -67,7 +72,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-6.jpg',
   linkURL: 'https://www.pexels.com/photo/photo-of-ferrari-sports-car-parked-on-road-2664399',
   credit: 'Roman Pohorecki',
-  creditURL: 'https://www.pexels.com/@romanp'
+  creditURL: 'https://www.pexels.com/@romanp',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -79,7 +85,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-7.jpg',
   linkURL: 'https://www.pexels.com/photo/nissan-gt-r-on-car-show-inside-building-2062551',
   credit: 'Orest Sv',
-  creditURL: 'https://www.pexels.com/@orestsv'
+  creditURL: 'https://www.pexels.com/@orestsv',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -91,7 +98,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-8.jpg',
   linkURL: 'https://www.pexels.com/photo/stylish-automobile-with-glowing-headlights-on-parking-5214397',
   credit: 'Erik Mclean',
-  creditURL: 'https://www.pexels.com/@introspectivedsgn'
+  creditURL: 'https://www.pexels.com/@introspectivedsgn',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -103,7 +111,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-9.jpg',
   linkURL: 'https://www.pexels.com/photo/white-mercedes-benz-sedan-2611710',
   credit: 'Javier Aguilera',
-  creditURL: 'https://www.pexels.com/@jamphotography'
+  creditURL: 'https://www.pexels.com/@jamphotography',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -115,7 +124,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-10.jpg',
   linkURL: 'https://www.pexels.com/photo/red-car-head-light-638479',
   credit: 'Vraj Shah',
-  creditURL: 'https://www.pexels.com/@vraj-shah-115200'
+  creditURL: 'https://www.pexels.com/@vraj-shah-115200',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -127,7 +137,8 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-11.jpg',
   linkURL: 'https://www.pexels.com/photo/a-blue-car-parked-near-a-boat-9846137',
   credit: 'Erik Mclean',
-  creditURL: 'https://www.pexels.com/@introspectivedsgn'
+  creditURL: 'https://www.pexels.com/@introspectivedsgn',
+  dateCreated: new Date().toISOString().split('T')[0]
 },
 
 {
@@ -139,5 +150,6 @@ module.exports = [{
   pathURL: 'assets/images/gal-car-12.jpg',
   linkURL: 'https://www.pexels.com/photo/single-cab-pickup-truck-797570',
   credit: 'Tina Nord',
-  creditURL: 'https://www.pexels.com/@nord6'
+  creditURL: 'https://www.pexels.com/@nord6',
+  dateCreated: new Date().toISOString().split('T')[0]
 }];
