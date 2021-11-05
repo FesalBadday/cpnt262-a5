@@ -14,5 +14,5 @@ mongoose.connect(
   .catch(function (err) {
     console.log(err)
   });
-  
+
 module.exports = mongoose;
