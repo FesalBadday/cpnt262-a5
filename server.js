@@ -1,15 +1,14 @@
-// Install modules
+// Import modules
 const express = require('express') // import express module
 const app = express()
 
-const gallery = require('./data/gallery') // import gallery module
 const api = require('./routes/api') // import api module
 
 // Serve static files using middleware
-app.use(express.static('public'))
+app.use(express.static('./public'))
 
 //
-app.use('/api/cars', api);
+app.use('/api', api);
 
 // Handle 404 errors with middleware
 app.use((req, res) => {
