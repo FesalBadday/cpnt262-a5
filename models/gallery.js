@@ -14,4 +14,4 @@ const gallerySchema = new mongoose.Schema({
   dateCreated: String
 })
 
-module.exports = mongoose.model('gallery', gallerySchema)
+module.exports = mongoose.model('gallery', gallerySchema) // export mongoose
