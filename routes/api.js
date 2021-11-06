@@ -2,7 +2,7 @@
 /* Import Modules */
 /******************/
 const express = require('express') // import express module
-const router = express.Router();
+const router = express.Router()
 
 const mongoose = require('../connection')
 
@@ -26,8 +26,8 @@ const gallerySchema = new mongoose.Schema({
 const Gallery = mongoose.model('gallery', gallerySchema)
 
 router.get('/cars', (req, res) => {
-  Gallery.find((err, data) => {
-    try {
+  try {
+    Gallery.find((err, data) => {
       if (typeof data !== 'undefined' && Array.isArray(data)) {
         if (req.query.filter === 'random') {
           res.send(randomCar(data))
@@ -37,26 +37,26 @@ router.get('/cars', (req, res) => {
       } else {
         res.status(404).send({ error: '404 Not Found' })
       }
-    } catch (err) {
-      console.log(err)
-      res.status(404).send({ error: '404 Not Found' })
-    }
-  });
+    })
+  } catch (err) {
+    console.log(err)
+    res.status(404).send({ error: '404 Not Found' })
+  }
 })
 
 router.get('/cars/:id', (req, res) => {
-  Gallery.findOne({ id: req.params.id }, (err, data) => {
-    try {
+  try {
+    Gallery.findOne({ id: req.params.id }, (err, data) => {
       if (typeof data === 'object' && data !== null) {
         res.send(data)
       } else {
         res.status(404).send({ error: '404 Not Found' })
       }
-    } catch (err) {
-      console.log(err)
-      res.status(404).send({ error: '404 Not Found' })
-    }
-  });
+    })
+  } catch (err) {
+    console.log(err)
+    res.status(404).send({ error: '404 Not Found' })
+  }
 })
 
-module.exports = router; // export router
+module.exports = router // export router
