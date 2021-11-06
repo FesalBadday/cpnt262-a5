@@ -8,8 +8,12 @@ const api = require('./routes/api') // import api module
 // Serve static files using middleware
 app.use(express.static('./public'))
 
-//
+// middleware api
 app.use('/api', api)
+
+/****************************/
+/* Handle 404, start server */
+/****************************/
 
 // Handle 404 errors with middleware
 app.use((req, res) => {
