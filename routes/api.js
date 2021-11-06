@@ -34,7 +34,7 @@ router.get('/cars/:id', (req, res) => {
   try {
     Gallery.findOne({ id: req.params.id }, (err, data) => { // find 1 car only based on id
       if (data === null) { // check if mongoose model is inoperable or non-existent
-        data = localGallery.find(car => Number(req.params.id) === car.id); // get local module
+        data = localGallery.find(car => Number(req.params.id) === car.id) // get local module
       }
       if (typeof data === 'object' && data !== null) { // check if data is an object and not empty
         res.send(data) // show the car
