@@ -2,7 +2,7 @@
 const express = require('express') // import express module
 const app = express()
 
-const mongoose = require('./connection') // import connection module
+const mongoose = require('./models/connection') // import connection module
 const api = require('./routes/api') // import api module
 
 // Serve static files using middleware
