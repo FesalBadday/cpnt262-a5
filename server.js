@@ -1,15 +1,19 @@
-// Import modules
+/******************/
+/* Import Modules */
+/******************/
+const dotenv = require('dotenv').config() // import dotenv module
+
 const express = require('express') // import express module
 const app = express()
 
-const mongoose = require('./models/connection') // import connection module
-const api = require('./routes/api') // import api module
-
 // Serve static files using middleware
-app.use(express.static('./public'))
+app.use(express.static('public'))
 
-// middleware api
-app.use('/api', api)
+const api = require('./routes/api') // import api module
+app.use('/api', api) // middleware api
+
+const mongoose = require('./models/connection') // import connection module
+
 
 /****************************/
 /* Handle 404, start server */

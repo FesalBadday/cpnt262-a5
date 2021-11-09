@@ -2,7 +2,6 @@
 /* Connect to Database */
 /***********************/
 const mongoose = require('mongoose') // import mongoose module
-const dotenv = require('dotenv').config() // import dotenv module
 
 // make the connection
 mongoose.connect(
