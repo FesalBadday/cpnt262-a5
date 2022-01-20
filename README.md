@@ -1,4 +1,4 @@
-# CPNT 262 Assignment 5 - Deployed REST API
+# Deployed REST API
 
 ---
 
