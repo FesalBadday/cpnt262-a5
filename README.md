@@ -4,7 +4,7 @@
 
 **Author :** Fesal Badday
 
-**Repo :** [Github Repo](https://github.com/FesalBadday/cpnt262-a5)
+**Repo :** [Github Repo](https://github.com/FesalBadday/rest-api)
 
 **Site :** [Heroku Page](https://cpnt262-a5-fesal.herokuapp.com)
 
